@@ -8,7 +8,7 @@ import pandas as pd
 
 start = time.time()
 
-#Loading the point cloud from ASCII file in a custom data structure.
+#Loading the point cloud from ASCII file in a custom data structure.Change the 'cloud(rgb).txt' in line 14 to any point cloud that you want to load.
 
 #cloud = PyntCloud.from_file("cloud.ply")
 data = pd.read_csv('cloud(rgb).txt',sep = " ")
